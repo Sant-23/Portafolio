@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+body{ 
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/bg_header.png);
+    background-size: cover;
+    top: 0;
+    padding-bottom: 14px;
+}
+
+header #basic{
+    padding-top: 88px;
+}
+
+.menu{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+
+.menu.abajo{
+    background-color: #9b77b3;
+    transition: 0,2s;
+    opacity: 95%;
+}
+
+.menu{
+    align-items: center;
+    padding-top: 15px;
+}
+
+.menu #logo-menu{
+    width: 60px;
+}
+
+#navbarNav{
+    justify-content: flex-end;
+    padding-top: 15px;
+}
+
+#navbarNav .nav-item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    color: white;
+}
+
+#basic{
+    padding-right: 75px;
+}
+
+#basic #logo_header{
+    width: 180px;
+}
+
+#basic .info{
+    padding-top: 40px;
+}
+
+#basic .info .b-izq{
+    padding-top: 90px;
+    text-align: right;
+}
+
+#basic .info h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50pt;
+    color: white;
+    padding-top: 8px;
+    margin-bottom: -13px;
+}
+
+#basic .info h3{
+    font-size: 18pt;
+    margin-bottom: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#basic .info h4{
+    font-size: 16pt;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#basic .info .b-der{
+    text-align: left;
+}
+
+#basic .info .b-der img{
+    width: 400px;
+}
+
+#text{
+    padding-top: 40px;
+}
+
+#text .row{
+    justify-content: center;
+}
+
+#text p{
+    font-size: 13pt;
+    text-align: center;
+    color: white;
+}
+
+.perfil_home{
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.perfil_home #foto-1{
+    width: 300px;
+}
+
+.perfil_home #foto-2{
+    width: 229px;
+    padding-left: 30px;
+}
+
+.perfil_home #foto-3{
+    width: 234px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.perfil_home .b-der{
+    padding-top: 25px;
+    padding-left: 35px;
+    justify-content: flex-end;
+}
+
+.perfil_home .b-der h2{
+    color: #9b77b3;
+    font-size: 35pt;
+}
+
+.perfil_home .b-der p{
+    padding-top: 20px;
+    font-size: 13pt;
+    text-align:justify;
+}
+
+.perfil_home .b-der .button{
+    padding-top: 30px;
+}
+
+.perfil_home .b-der .button a{
+    align-items: center;
+    height: 40px;
+    padding-top: 5px;
+    font-size: 13pt;
+    text-align: center;
+}
+
+.perfil_home .b-der .button #BTN{
+    border: 0;
+    background-color: #43bee4;
+}
+
+.portafolio{
+    background-color: #ac86c5;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.portafolio .content .titulo h2{
+    padding-top: 0;
+    color: #fff;
+    font-size: 35pt;
+}
+
+.portafolio .content .imagenes{
+    padding-top: 50px;
+    padding-left: 0px;
+    align-items: center;
+}
+
+.portafolio .content .imagenes .b-cen img{
+    padding-left: 0px;
+}
+
+.portafolio .content .imagenes .b-der img{
+    padding-left: 0px;
+}
+
+
+.experiencia{
+    padding-top: 40px; 
+    padding-bottom: 20px;
+}
+
+.experiencia h2{
+    color: #9b77b3;
+    font-size: 35pt;
+}
+.experiencia .content{
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.experiencia .content .b-izq .contenido{
+    padding-top: 30px;
+}
+
+.experiencia .content .b-izq .contenido p{
+    padding-top: 20px;
+    font-size: 13pt;
+    text-align:justify;
+}
+
+.experiencia .content .b-izq .button{
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+.experiencia .content .b-izq .button a{
+    align-items: center;
+    height: 40px;
+    padding-top: 5px;
+    font-size: 13pt;
+    text-align: center;
+}
+
+.experiencia .content .b-izq .button #BTN{
+    border: 0;
+    background-color: #43bee4;
+}
+.experiencia .content .b-der #foto-1{
+    width: 300px;
+}
+
+.experiencia .content .b-der #foto-2{
+    width: 229px;
+    padding-left: 30px;
+}
+
+.experiencia .content .b-der #foto-3{
+    width: 234px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.habilidades{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.habilidades .texto h2{
+    color: #9b77b3;
+    font-size: 35pt;
+}
+
+.habilidades .texto p{
+    padding-top: 20px;
+    font-size: 13pt;
+    
+}
+
+.habilidades .content{
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.habilidades .imagenes{
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-bottom: 0;
+}
+
+.habilidades .imagenes .b-1 img{
+    width: 85px;
+}
+
+.habilidades .imagenes .b-1 p{
+    padding-top: 8px;
+    font-size: 13pt;
+}
+
+.habilidades .imagenes .b-2{
+    padding-left: 50px;
+}
+
+.habilidades .imagenes .b-2 img{
+    width: 85px;
+}
+
+.habilidades .imagenes .b-2 p{
+    padding-top: 8px;
+    font-size: 13pt;
+}
+
+.habilidades .imagenes .b-3{
+    padding-left: 50px;
+}
+
+.habilidades .imagenes .b-3 img{
+    width: 85px;
+}
+
+.habilidades .imagenes .b-3 p{
+    padding-top: 8px;
+    font-size: 13pt;
+}
+
+.habilidades .imagenes .b-4{
+    padding-left: 50px;
+}
+
+.habilidades .imagenes .b-4 img{
+    width: 85px;
+}
+
+.habilidades .imagenes .b-4 p{
+    padding-top: 8px;
+    font-size: 13pt;
+}
+
+.habilidades .imagenes .b-5{
+    padding-left: 50px;
+}
+
+.habilidades .imagenes .b-5 img{
+    width: 85px;
+}
+
+.habilidades .imagenes .b-5 p{
+    padding-top: 8px;
+    font-size: 13pt;
+}
+
+.habilidades .imagenes .b-6{
+    padding-left: 50px;
+}
+
+.habilidades .imagenes .b-6 img{
+    width: 85px;
+}
+
+.habilidades .imagenes .b-6 p{
+    padding-top: 8px;
+    font-size: 13pt;
+}
+
+.habilidades .imagenes .b-7{
+    padding-left: 50px;
+}
+
+.habilidades .imagenes .b-7 img{
+    width: 85px;
+}
+
+.habilidades .imagenes .b-7 p{
+    padding-top: 8px;
+    font-size: 13pt;
+}
+
+.habilidades .linea{
+    padding-top: 0;
+}
+
+.habilidades .linea img{
+    padding-left: 20px;
+    width: 1020px;
+    height: 5px;
+}
+
+.hobbies{
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.hobbies .hobbies_content #foto-1{
+    width: 300px;
+}
+
+.hobbies .hobbies_content #foto-2{
+    width: 229px;
+    padding-left: 30px;
+}
+
+.hobbies .hobbies_content #foto-3{
+    width: 234px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.hobbies .hobbies_content .b-der{
+    padding-top: 25px;
+    padding-left: 35px;
+    justify-content: flex-end;
+}
+
+.hobbies .hobbies_content .b-der h2{
+    color: #9b77b3;
+    font-size: 35pt;
+}
+
+.hobbies .hobbies_content .b-der p{
+    padding-top: 20px;
+    font-size: 13pt;
+    text-align:justify;
+}
+
+.hobbies .hobbies_content .b-der .button{
+    padding-top: 30px;
+}
+.hobbies .hobbies_content .b-der .button a{
+    align-items: center;
+    height: 40px;
+    padding-top: 5px;
+    font-size: 13pt;
+    text-align: center;
+    
+}
+
+.hobbies .hobbies_content .b-der .button #BTN{
+    border: 0;
+    background-color: #43bee4;
+}
+
+.contacto{
+    background-color: #ac86c5;
+    padding-top: 45px;
+    padding-bottom: 70px;
+}
+
+.contacto .texto h2{
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 35pt;
+}
+
+.contacto p{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 13pt;
+}
+
+.contacto .redes{
+    padding-left: 0px;
+    padding-top: 50px;
+}
+
+.contacto .redes a img{
+    width: 50px;
+}
+
+.contacto .redes a h4{
+    color: #fff;
+    padding-top: 8px;
+    font-size: 16pt;
+}
+
+.contacto .redes a:hover{
+    text-decoration: none;
+}
+
+.contacto .redes .center{
+    padding-top: 20px;
+}
+
+.contacto .redes .bottom{
+    padding-top: 20px;
+}
+
+.contacto .redes .b-der{
+    padding-top: 20px;
+    padding-left: 470px;
+}
+
+.contacto .redes .b-der .imagen a img{
+    width: 250px;
+}
+
+footer{
+    background-color: #2D2D2D;
+    background-size: cover;
+    padding-bottom: 18;
+}
+
+footer .derechos p{
+    color: rgb(206, 206, 206);
+    padding-top: 40px;
+    font-size: 12pt;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
